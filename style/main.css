@@ -1,0 +1,367 @@
+nav {
+    height: 77px;
+    border-bottom: 1px solid rgb(223, 223, 223);
+    box-sizing: border-box;
+    display: flex;
+
+}
+.iconAndLogo{
+    display: flex;
+    position: relative;
+    top: 26px;
+    left: 10%;
+}
+
+.logoIcon {
+    background-image: url("https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/logo.png");
+    background-size: 100%;
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+}
+
+.verticalLine {
+    content: "";
+    display: inline-block;
+    border-left: 1px solid rgb(179, 176, 176);
+    height: 28px;
+    margin: 0 15px;
+    
+}
+
+.logoImg {
+    background-image: url("/img/logo_text.png");
+    background-size: 100%;
+    display: inline-block;
+    width: 103px;
+    height: 30px;
+}
+
+.searchBox {
+    width: 215px;
+    height: 28px;
+    position: absolute;
+    left: 41%;
+    background-color: #FAFAFA;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 6px;
+    margin-top: 25px;
+    font-weight: 300;
+    color: #999;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    cursor: text;
+}
+
+.searchBoxInput {
+    display: none;
+    padding: 3px 10px 3px 26px;
+}
+
+.navList {
+    width: 140px;
+    position: absolute;
+    top: 17px;
+    right: 5%;
+    display: flex;
+    padding: 0 10px;
+}
+
+.navList li {
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+    background-size: 100%;
+    margin: 11px;
+    cursor: pointer;
+}
+
+.searchImg {
+    background-image: url("https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/explore.png");
+}
+
+.heartImg {
+    background-image: url("https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png");
+}
+
+.peopleImg {
+    background-image: url("https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/profile.png");
+}
+
+.total {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: calc(100vh - 77);
+}
+
+.feeds {
+    margin-top: 60px;
+    width: 614px;
+    background-color: #fff;
+}
+
+article {
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 3px;
+    width: 614px;
+    height: 
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.profilePhoto {
+    background-image: url("https://scontent-icn1-1.cdninstagram.com/vp/91a4a6cf425350138a196ba4df885b9b/5DFE2D10/t51.2885-19/s150x150/64219646_866712363683753_7365878438877462528_n.jpg?_nc_ht=scontent-icn1-1.cdninstagram.com");
+    display:inline-block;
+    background-size: 100%;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.profileName {
+    color: #262626;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    padding: 4px 10px;
+}
+
+.feedPhoto img {
+    width: 100%;
+}
+
+
+.feedPhoto {
+    width: 614px;
+}
+.photoBottom {
+    height: 40px;
+}
+
+.profileList {
+    display:flex;
+    width: 140px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.profileList li, .bookmarkImg {
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+    background-size: 100%;
+    margin: 11px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+.bookmarkImg {
+    margin-top: -29px;
+}
+
+.profileHeartImg {
+    background-image: url("https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png");
+}
+
+.profileBalloonImg {
+    background-image: url("https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/explore.png");
+}
+
+.profileShareImg {
+    background-image: url("https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/profile.png");
+}
+
+.bookmarkImg {
+    float: right;
+    background-image: url("https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png");
+}
+
+.likeSection {
+    height: 18px;
+    padding: 0 16px;
+    margin: 7px auto;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.commentUploadedBox {
+    padding: 0 16px;
+}
+
+.commentList .userComment span {
+    font-weight: bold;
+}
+
+.commentList button {
+    padding: 0;
+    color: #999999;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.commentList .secondList {
+    margin-bottom: 10px;
+}
+
+.timeBox {
+    height: 19px;
+    color: #999999;
+    font-size: 10px;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+.commentWritingSection {
+    height: 56px;
+    margin-top: 4px;
+    padding: 0 16px;
+    position: relative;
+    border-top: 1px solid rgb(223, 223, 223);
+}
+
+.commentForm {
+    position: absolute;
+    width: 582px;
+    bottom: 18px;
+    display: flex;
+}
+
+.commentForm button {
+    position: absolute;
+    right: 0;
+    color: #3897F0;
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0.3;
+}
+
+.commentWriting {
+    resize: none;
+    color: #999;
+    border: none;
+    width: 557.77px;
+    height: 18px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.mainRight {
+    margin-top: 60px;
+    width: 293px;
+    height: 675px;
+    box-sizing: border-box;
+    margin-left: 30px;
+}
+
+.rightProfile {
+    display: flex;
+    height: 62px;
+}
+
+.rightProfileImg {
+    background-image: url("https://scontent-icn1-1.cdninstagram.com/vp/91a4a6cf425350138a196ba4df885b9b/5DFE2D10/t51.2885-19/s150x150/64219646_866712363683753_7365878438877462528_n.jpg?_nc_ht=scontent-icn1-1.cdninstagram.com");
+    display:inline-block;
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.rightProfileBox {
+    display: inline-block;
+    padding: 10px;
+}
+
+.rightProfileUserId {
+    color: #262626;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.rightProfileUserName {
+    color: #999999;
+    font-size: 12px;
+}
+
+.rightStory {
+    height: 223px;
+    width: 100%;
+    border: 1px solid rgb(223, 223, 223);
+    margin-top: 5px;
+    border-radius: 3px;
+    position: relative;
+}
+
+.rightStory .rightProfileImg {
+    width: 34px;
+    height: 34px;
+}
+
+.firstStory, .secondStory, .thirdStory {
+    display: flex;
+    padding: 1px 7px 2px 6px;
+    height: 44px;
+}
+
+.rightStory .rightProfileBox {
+    padding: 0 8px;
+}
+
+.rightRecommend {
+    height: 223px;
+    width: 100%;
+    border: 1px solid rgb(223, 223, 223);
+    margin: 12px 0;
+    position: relative;
+}
+
+.rightRecommendTop {
+    height: 19px;
+    margin-top: 12px;
+    padding: 4px 16px;
+}
+
+.rightRecommendTopTitle {
+    color: #999999;
+    font-size: 14px;
+}
+
+.rightRecommendTopSeeAll {
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    right: 5px;
+}
+
+.rightRecommend .rightProfileImg {
+    width: 34px;
+    height: 34px;
+}
+
+.rightRecommend .rightProfileBox {
+    padding: 0 8px;
+}
+
+.firstRecommend, .secondRecommend, .thirdRecommend {
+    display: flex;
+    padding: 1px 7px 2px 20px;
+    height: 44px;
+}
+
+.infoList li {
+    color: #C7C7C7;
+    font-size: 11px;
+    display: inline-block;
+}
+

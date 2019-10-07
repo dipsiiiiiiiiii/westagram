@@ -1,0 +1,31 @@
+textarea:focus {
+    outline:none;
+    padding: 0;
+}
+
+input:focus {
+    outline:none;
+}
+
+button:focus {
+    outline:none;
+}
+
+textarea {
+    padding: 0;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    border: none;
+}

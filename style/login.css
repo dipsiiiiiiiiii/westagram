@@ -1,0 +1,59 @@
+button:focus{
+    outline:none;
+}
+
+
+.loginContainer {
+    border: 1px solid #e6e6e6;
+    width: 350px;
+    height: 380px;
+    box-sizing: border-box;
+    margin: 12px auto;
+}
+
+.logoImg {
+    background-image: url(/img/logo_text.png);
+    background-size: 100%;
+    width: 180px;
+    height: 55px;
+    margin: 30px auto;
+}
+
+.loginForm {
+    padding-left: 20px;
+    width: 348px;
+    height: 263px;
+}
+
+.loginForm input{
+   width: 270px;
+   height: 38px;
+   font-size: 12px;
+   margin-left: 13px;
+   margin-bottom: 5px;
+   padding-left: 9px;
+   border: 1px solid #efefef;
+   background-color: #FAFAFA;
+   border-radius: 3px;
+   color: #999999;
+}
+
+.loginBtn {
+    background-color: #3897f0;
+    opacity: 0.3;
+    width: 281px;
+    height: 30px;
+    margin-left: 13px;
+    margin-top: 7px;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+    font-weight: 600;
+} 
+
+.lostPw{
+    color:#003569;
+    margin-left: 93px;
+    font-size: 12px;
+    margin-top: 90px;
+}
