@@ -358,6 +358,11 @@ header {
     height: 44px;
 }
 
+.infoList {
+    width: 100%;
+    height: 36px;
+}
+
 .infoList li {
     color: #C7C7C7;
     font-size: 11px;
