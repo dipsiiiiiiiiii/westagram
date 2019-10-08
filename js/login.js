@@ -9,7 +9,6 @@ document.addEventListener('keyup',function() {
   if(idValue && pwValue){
     thisIsBtn.style.opacity = 1;
     thisIsBtn.style.cursor = 'pointer'
-    is_ok_to_submit = true;
   } else {
     thisIsBtn.style.opacity = 0.3;
   }
