@@ -4,7 +4,7 @@ let commentList = document.getElementsByClassName("commentList")[0];
 const userNameTag = document.getElementsByClassName("rightProfileUserId")[0];
 const userName = userNameTag.innerHTML;
 
-document.addEventListener('keyup',function(){
+comment.addEventListener('keyup',function(){
     if(comment) {
         commentBtn.style.opacity = 1;
         commentBtn.style.cursor = 'pointer';
@@ -28,4 +28,5 @@ const searchInput = document.getElementsByClassName("searchBoxInput")[0];
 
 searchBox.addEventListener('click',function(){
     searchInput.style.display = "block";
+    searchBox.style.display = "none";
 })
