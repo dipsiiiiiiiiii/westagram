@@ -16,6 +16,10 @@
 }
 
 .loginForm {
+    /*아래 둘다 없어도 화면이 똑같습니다.*/
+    /*개발자도구에서 확인해보세요. */
+    /*form 태그는 부모의 div.loginContainer 가로 크기만큼 원래 꽉차므로 굳이 100%을 안주어도 됩니다.*/
+    /*높이도 빼도 화면이 그대로인데, 자식 높이만큼 알아서 늘어나므로 없어도 됩니다*/
     width: 100%;
     height: 263px;
 }
@@ -42,7 +46,7 @@
     font-size: 14px;
     border-radius: 4px;
     font-weight: 600;
-} 
+}
 
 .lostPw{
     color:#003569;
