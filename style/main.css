@@ -14,6 +14,7 @@ nav {
     top: 0;
     background-color: white;
     padding: 26px 40px;
+    z-index: 1;
 }
 
 .iconAndLogo{
@@ -75,12 +76,28 @@ nav {
 }
 
 
-.firstSearch, .secondSearch, .thirdSearch {
+.firstSearch {
     width: 215px;
     height: 28px;
     padding: 3px 10px 3px 26px;
     border: 1px solid #dbdbdb;
 }
+
+.secondSearch {
+    width: 215px;
+    height: 28px;
+    padding: 3px 10px 3px 26px;
+    border: 1px solid #dbdbdb;
+}
+
+.thirdSearch {
+    width: 215px;
+    height: 28px;
+    padding: 3px 10px 3px 26px;
+    border: 1px solid #dbdbdb;
+}
+
+
 
 .navList {
     display: flex;
@@ -124,8 +141,7 @@ article {
     width: 100%;
 }
 
-header {
-    width: 100%;
+.firstHeader {
     height: 60px;
     padding: 16px;
     display: flex;
@@ -271,8 +287,6 @@ header {
 
 .rightProfileBox {
     padding: 10px;
-    display: flex;
-    justify-content: 
 }
 
 .rightProfileUserId {
@@ -318,7 +332,6 @@ header {
     border: 1px solid rgb(223, 223, 223);
     margin: 12px 0;
     position: relative;
-    z-index: -1;
 }
 
 .rightRecommendTop {
